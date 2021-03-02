@@ -40,6 +40,9 @@ std::tuple<double,double,double> get_2dim_curve_with_lsm(
             sum_x += x;
             sum_y += y;
             sum_xx += x * x;
+            sum_xxx += x * x * x;
+            sum_xxxx += x * x * x * x;
+            sum_xxy += x * x * y;
             sum_xy += x * y;
             num += 1;
         }
