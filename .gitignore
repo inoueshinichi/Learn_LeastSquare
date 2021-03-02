@@ -1,0 +1,4 @@
+# Directory
+.vscode
+__pycache__
+build
