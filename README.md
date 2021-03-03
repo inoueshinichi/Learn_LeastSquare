@@ -1,7 +1,7 @@
 # LeastSquareMethod
 最小二乗法プログラム</br>
 ```math
-J ¥eq ¥frac{1}{2}(y_i - f(x_i))^2
+J \eq \frac{1}{2}(y_i - f(x_i))^2
 ```
 
 1) 直線近似</br>
