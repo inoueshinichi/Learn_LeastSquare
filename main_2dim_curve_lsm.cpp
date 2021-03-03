@@ -14,8 +14,9 @@
 #include <tuple>
 #include <iostream>
 
-std::tuple<double,double,double> get_2dim_curve_with_lsm(
-    std::vector<std::pair<double,double>> points, bool is_x_mode = true) {
+std::tuple<double,double,double> 
+get_2dim_curve_with_lsm(const std::vector<std::pair<double,double>>& points, 
+                        bool is_x_mode = true) {
     
     double x = 0;
     double y = 0;

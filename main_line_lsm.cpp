@@ -14,8 +14,9 @@
 #include <tuple>
 #include <iostream>
 
-std::tuple<double,double> get_line_with_lsm(
-    const std::vector<std::pair<double,double>>& points, bool is_x_mode = true) {
+std::tuple<double,double> 
+get_line_with_lsm(const std::vector<std::pair<double,double>>& points, 
+                  bool is_x_mode = true) {
     double x = 0;
     double y = 0;
     double sum_x = 0;

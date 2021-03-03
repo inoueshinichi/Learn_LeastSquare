@@ -4,6 +4,7 @@ project(lsm VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
+set(CMAKE_CXX_STANDARD 20)
 
 # 直線近似
 add_executable(line_lsm
